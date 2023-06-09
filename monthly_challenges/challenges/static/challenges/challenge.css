@@ -1,0 +1,20 @@
+h1, h2, .fallback {
+    text-align: center;
+}
+
+h1 {
+    color: #cd67cd;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+    font-weight: normal;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.fallback {
+    color: white;
+}
