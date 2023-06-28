@@ -10,4 +10,7 @@
             <li><a href="{{ book.get_absolute_url }}">{{ book.title }}</a> - {{ book.author }}</li>
         {% endfor %}
     </ul>
+    <hr>
+    <p>Number of books: {{ total_number_of_books }}</p>
+    <p>Average Rating: {{ average_rating }}</p>
 {% endblock %}
